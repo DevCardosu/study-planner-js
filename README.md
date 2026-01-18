@@ -30,15 +30,12 @@ Os dados são persistidos utilizando LocalStorage, sem necessidade de backend.
 - JavaScript (ES6+)
 - LocalStorage
 
+
 ---
 
-## Estrutura do Projeto
-study-planner-js/
-│
-├── index.html
-├── src/
-│ ├── styles/
-│ │ └── style.css
-│ └── js/
-│ └── scripts.js
-└── README.md
+## Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/study-planner-js.git
+
