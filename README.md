@@ -33,4 +33,12 @@ Os dados são persistidos utilizando LocalStorage, sem necessidade de backend.
 ---
 
 ## Estrutura do Projeto
-
+study-planner-js/
+│
+├── index.html
+├── src/
+│ ├── styles/
+│ │ └── style.css
+│ └── js/
+│ └── scripts.js
+└── README.md
