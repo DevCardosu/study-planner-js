@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgramStudy</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <h1>ProgramStudy</h1>
+        <p>Ajuste seus estudos para maximizar seus aprendizados!</p>
+        <nav class="navigation">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#materias">Matérias</a></li>
+        </nav>
+    </header>
+
+    <main class="main">
+
+  <!-- Dashboard -->
+  <section id="inicio">
+    <h2>Resumo dos Estudos</h2>
+    <p id="resumo"></p>
+  </section>
+
+  <!-- Adicionar matéria -->
+  <section id="materias">
+    <h2>Adicionar Matéria</h2>
+
+    <label>Meta</label>
+    <input id="meta" type="text" placeholder="Ex: Estágio Backend">
+
+    <label>Matéria</label>
+    <input id="materia" type="text" placeholder="Ex: Java, Spring">
+
+    <label>Prioridade</label>
+    <select id="prioridade">
+      <option>Alta</option>
+      <option>Média</option>
+      <option>Baixa</option>
+    </select>
+
+    <button id="btn-add">Adicionar</button>
+  </section>
+
+  <!-- Lista -->
+  <section id="lista">
+    <h2>Minhas Matérias</h2>
+    <ul id="materias-lista"></ul>
+  </section>
+
+</main>
+<script src="src/js/scripts.js"></script>
+</body>
+</html>
